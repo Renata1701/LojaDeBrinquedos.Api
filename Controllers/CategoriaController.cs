@@ -35,9 +35,9 @@ public class CategoriaController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Models.Categoria> GetCategoria(int id)
+    public ActionResult<Models.CategoriaService> GetCategoria(int id)
     {
-        var categoria = new Models.Categoria(1, "Brinquedos de Construção");
+        var categoria = new Models.CategoriaService(1, "Brinquedos de Construção");
 
         if (categoria.Id != id)
         {
@@ -47,13 +47,13 @@ public class CategoriaController : ControllerBase
         return Ok(categoria);
     }
     [HttpPost]
-    public ActionResult<Models.Categoria> CreateCategoria(Models.Categoria categoria)
+    public ActionResult<Models.CategoriaService> CreateCategoria(Models.CategoriaService categoria)
     {
         categoria.Id = 4;
         return CreatedAtAction(nameof(GetCategoria), new { id = categoria.Id }, categoria);
     }
     [HttpPut("{id}")]
-    public ActionResult UpdateCategoria(int id, Models.Categoria categoriaAtualizada)
+    public ActionResult UpdateCategoria(int id, Models.CategoriaService categoriaAtualizada)
     {
         if (id != categoriaAtualizada.Id)
         {

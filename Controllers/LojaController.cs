@@ -24,7 +24,7 @@ public class LojaController : ControllerBase
 
         using var command = new SqlCommand(query, connection);
         using var reader = command.ExecuteReader();
-
+        
         while (reader.Read())
         {
             lojas.Add(new

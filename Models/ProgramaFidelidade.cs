@@ -9,6 +9,7 @@ public class ProgramaFidelidade
     internal object PontosNecessarios;
     internal object Nome;
     internal object Descricao;
+    internal object Nivel;
 
     public int Id { get; set; }
     public int ClienteId { get; set; }

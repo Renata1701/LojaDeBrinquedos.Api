@@ -1,12 +1,12 @@
 ﻿namespace LojaDeBrinquedos.API.Models;
-public class Categoria
+public class CategoriaService
 {
     public int Id { get; set; }
     public string Nome { get; set; }
     public string Descricao { get; set; }
     public string Imagem { get; set; }
 
-    public Categoria(int id, string nome, string descricao, string imagem)
+    public CategoriaService(int id, string nome, string descricao, string imagem)
     {
         Id = id;
         Nome = nome;
@@ -14,7 +14,7 @@ public class Categoria
         Imagem = imagem;
     }
 
-    public Categoria(int v1, string v2)
+    public CategoriaService(int v1, string v2)
     {
     }
 }
