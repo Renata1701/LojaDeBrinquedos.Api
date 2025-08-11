@@ -1,45 +1,91 @@
-﻿using LojaDeBrinquedos.API.Models;
+﻿using LojaDeBrinquedos.API.Domain.Entities;
+using LojaDeBrinquedos.API.Domain.Interfaces;
 using Microsoft.Data.SqlClient;
 
 namespace LojaDeBrinquedos.API.Services;
 
-public class ProdutoService
+public class ProdutoService(IConfiguration configuration) : IProdutoService
 {
-    private readonly string _connectionString;
+    private List<Produto> _values = new List<Produto>();
+    public string? _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
 
-    public ProdutoService(IConfiguration configuration)
+    public void Add(Produto produto)
     {
-        _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
+        _values.Add(produto);
     }
 
-    public List<Dictionary<string, object>> ListarProdutos()
+    public List<Produto> GetAll()
     {
-        var produtos = new List<Dictionary<string, object>>();
+        return _values;
+    }
 
-        using (var connection = new SqlConnection(_connectionString))
+    public Produto GetById(int id)
+    {
+        return _values.FirstOrDefault(x => x.Id == id);
+    }
+
+    public void Update(Produto produto)
+    {
+        var existingProduto = GetById(produto.Id);
+        if (existingProduto != null)
         {
-            connection.Open();
-
-            string query = "SELECT Id, Nome, Quantidade, Preco FROM Produto";
-
-            using (var command = new SqlCommand(query, connection))
-            using (var reader = command.ExecuteReader())
-            {
-                while (reader.Read())
-                {
-                    var item = new Dictionary<string, object>
-                    {
-                        { "Id", reader.GetInt32(0) },
-                        { "Nome", reader.GetString(1) },
-                        { "Quantidade", reader.GetInt32(2) },
-                        { "Preco", reader.GetDecimal(3) }
-                    };
-
-                    produtos.Add(item);
-                }
-            }
+            existingProduto.Nome = produto.Nome;
+            existingProduto.Preco = produto.Preco;
+            existingProduto.Descricao = produto.Descricao;
         }
+    }
 
-        return produtos;
+    public void Delete(int id)
+    {
+        var produto = GetById(id);
+        if (produto != null)
+        {
+            _values.Remove(produto);
+        }
+    }
+
+    public void Clear()
+    {
+        _values.Clear();
+    }
+
+    public bool Exists(int id)
+    {
+        return _values.Any(x => x.Id == id);
+    }
+
+    public List<Produto> SearchByName(string name)
+    {
+        return _values.Where(x => x.Nome.Contains(name, StringComparison.OrdinalIgnoreCase)).ToList();
+    }
+
+    public List<Produto> SearchByPriceRange(decimal minPrice, decimal maxPrice)
+    {
+        return _values.Where(x => x.Preco >= minPrice && x.Preco <= maxPrice).ToList();
+    }
+
+    public Task<IEnumerable<Produto>> ObterTodosAsync()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<Produto> ObterPorIdAsync(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<Produto> AdicionarAsync(Produto produto)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<Produto> AtualizarAsync(Produto produto)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<bool> ExcluirAsync(int id)
+    {
+        throw new NotImplementedException();
     }
 }

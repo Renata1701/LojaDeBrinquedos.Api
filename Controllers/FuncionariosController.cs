@@ -1,4 +1,4 @@
-﻿using LojaDeBrinquedos.API.Models;
+﻿using LojaDeBrinquedos.API.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -10,8 +10,12 @@ public class FuncionariosController : ControllerBase
 {
 
     private static List<Funcionarios> funcionarios = new();
+    private string? _connectionString;
 
-    private readonly string _connectionString = "Server=Natalli_i5;Database=LojaDeBrinquedos;Trusted_Connection=True;\r\n";
+    public FuncionariosController(IConfiguration configuration)
+    {
+        _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
+    }
 
     [HttpGet]
     public IActionResult Get()

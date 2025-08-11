@@ -1,4 +1,4 @@
-﻿using LojaDeBrinquedos.API.Models;
+﻿using LojaDeBrinquedos.API.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -14,8 +14,12 @@ public class ProdutoController : ControllerBase
     internal string Nome;
     internal int Quantidade;
     internal decimal Preco;
+    private string? _connectionString;
 
-    private readonly string _connectionString = "Server=Natalli_i5;Database=LojaDeBrinquedos;Trusted_Connection=True;";
+    public ProdutoController(IConfiguration configuration)
+    {
+        _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
+    }
 
     [HttpGet]
     public IActionResult Get()

@@ -1,9 +1,10 @@
-﻿using LojaDeBrinquedos.API.Models;
+﻿using LojaDeBrinquedos.API.Domain.Entities;
+using LojaDeBrinquedos.API.Domain.Interfaces;
 using Microsoft.Data.SqlClient;
 
 namespace LojaDeBrinquedos.API.Services;
 
-public class PedidoService
+public class PedidoService : IPedidoService
 {
     private readonly string _connectionString;
 
@@ -12,51 +13,56 @@ public class PedidoService
         _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
     }
 
-    public async Task<List<Pedido>> ListarAsync()
+    private readonly List<Pedido> _pedidos;
+
+    public PedidoService()
     {
-        var pedidos = new List<Pedido>();
-
-        try
+        _pedidos = new List<Pedido>
         {
-            using var conexao = new SqlConnection(_connectionString);
-            await conexao.OpenAsync();
-
-            var query = "SELECT Id, ClienteId, DataPedido, Status FROM Pedido";
-
-            using var comando = new SqlCommand(query, conexao);
-            using var leitor = await comando.ExecuteReaderAsync();
-
-        }
-        catch (Exception ex)
-        {
-            throw new Exception("Erro ao listar pedidos.", ex);
-        }
-
-        return pedidos;
+            new Pedido(1, 1, 1, DateTime.Now, 100.00m, "Pendente"),
+            new Pedido(1, 1, DateTime.Now, 150.50m)
+            {
+                Id = 2,
+                LojaId = 1,
+                ClienteId = 2,
+                Status = "Concluído"
+            },
+        };
     }
 
-    public async Task<bool> AdicionarAsync(Pedido pedido)
+    public IEnumerable<Pedido> ObterTodosPedidos()
     {
-        try
-        {
-            using var conexao = new SqlConnection(_connectionString);
-            await conexao.OpenAsync();
-
-            var query = "INSERT INTO Pedido (ClienteId, DataPedido, Status) VALUES (@ClienteId, @DataPedido, @Status)";
-            using var comando = new SqlCommand(query, conexao);
-
-            comando.Parameters.AddWithValue("@ClienteId", pedido.ClienteId);
-            comando.Parameters.AddWithValue("@DataPedido", pedido.DataPedido);
-            comando.Parameters.AddWithValue("@Status", pedido.Status);
-
-            int linhasAfetadas = await comando.ExecuteNonQueryAsync();
-
-            return linhasAfetadas > 0;
-        }
-        catch (Exception)
-        {
-            return false;
-        }
+        return _pedidos;
     }
+
+    public Pedido ObterPedidoPorId(int id)
+    {
+        return _pedidos.FirstOrDefault(p => p.Id == id);
+    }
+
+    public void AdicionarPedido(Pedido pedido)
+    {
+        if (pedido == null) throw new ArgumentNullException(nameof(pedido));
+        if (_pedidos.Any(p => p.Id == pedido.Id)) throw new InvalidOperationException("Pedido já existe.");
+
+        _pedidos.Add(pedido);
+    }
+
+    public void AtualizarPedido(Pedido pedido)
+    {
+        if (pedido == null) throw new ArgumentNullException(nameof(pedido));
+        var existingPedido = ObterPedidoPorId(pedido.Id);
+        if (existingPedido == null) throw new InvalidOperationException("Pedido não encontrado.");
+
+        existingPedido.ClienteId = pedido.ClienteId;
+    }
+
+    public void RemoverPedido(int id)
+    {
+        var pedido = ObterPedidoPorId(id);
+        if (pedido == null) throw new InvalidOperationException("Pedido não encontrado.");
+
+        _pedidos.Remove(pedido);
+    }
+
 }
-

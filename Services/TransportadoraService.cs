@@ -1,9 +1,10 @@
-﻿using LojaDeBrinquedos.API.Models;
+﻿using LojaDeBrinquedos.API.Domain.Entities;
+using LojaDeBrinquedos.API.Domain.Interfaces;
 using Microsoft.Data.SqlClient;
 
 namespace LojaDeBrinquedos.API.Services;
 
-public class TransportadoraService
+public class TransportadoraService : ITransportadoraService
 {
     private readonly string _connectionString;
 
@@ -12,50 +13,46 @@ public class TransportadoraService
         _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
     }
 
-    public async Task<List<Transportadora>> ListarAsync()
+    private readonly List<Transportadora> _transportadoras;
+
+    public void AdicionarTransportadora(Transportadora transportadora)
     {
-        var transportadoras = new List<Transportadora>();
+        if (transportadora == null)
+            throw new ArgumentNullException(nameof(transportadora));
 
-        try
-        {
-            using var conexao = new SqlConnection(_connectionString);
-            await conexao.OpenAsync();
+        if (_transportadoras.Any(t => t.Id == transportadora.Id))
+            throw new InvalidOperationException("Transportadora já existe.");
 
-            var query = "SELECT Id, Nome, Telefone FROM Transportadora";
-
-            using var comando = new SqlCommand(query, conexao);
-            using var leitor = await comando.ExecuteReaderAsync();
-
-        }
-        catch (Exception ex)
-        {
-            throw new Exception("Erro ao listar transportadoras.", ex);
-        }
-
-        return transportadoras;
+        _transportadoras.Add(transportadora);
     }
 
-    public async Task<bool> AdicionarAsync(Transportadora transportadora)
+    public IEnumerable<Transportadora> ObterTodasTransportadoras()
     {
-        try
-        {
-            using var conexao = new SqlConnection(_connectionString);
-            await conexao.OpenAsync();
+        return _transportadoras;
+    }
 
-            var query = "INSERT INTO Transportadora (Nome, Telefone) VALUES (@Nome, @Telefone)";
-            using var comando = new SqlCommand(query, conexao);
+    public Transportadora ObterTransportadoraPorId(int id)
+    {
+        return _transportadoras.FirstOrDefault(t => t.Id == id);
+    }
 
-            comando.Parameters.AddWithValue("@Nome", transportadora.Nome);
-            comando.Parameters.AddWithValue("@Telefone", transportadora.Telefone);
+    public void AtualizarTransportadora(Transportadora transportadora)
+    {
+        var existente = ObterTransportadoraPorId(transportadora.Id);
+        if (existente == null)
+            throw new InvalidOperationException("Transportadora não encontrada.");
 
-            int linhasAfetadas = await comando.ExecuteNonQueryAsync();
+        existente.Nome = transportadora.Nome;
+        existente.Telefone = transportadora.Telefone;
+        
+    }
 
-            return linhasAfetadas > 0;
-        }
-        catch (Exception)
-        {
-            return false;
-        }
+    public void RemoverTransportadora(int id)
+    {
+        var transportadora = ObterTransportadoraPorId(id);
+        if (transportadora == null)
+            throw new InvalidOperationException("Transportadora não encontrada.");
+
+        _transportadoras.Remove(transportadora);
     }
 }
-

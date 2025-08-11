@@ -1,4 +1,4 @@
-﻿using LojaDeBrinquedos.API.Models;
+﻿using LojaDeBrinquedos.API.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 
@@ -7,7 +7,12 @@ namespace LojaDeBrinquedos.API.Controllers;
 [ApiController]
 public class RelatorioDeEstoqueController : ControllerBase
 {
-    private readonly string _connectionString = "Server=Natalli_i5;Database=LojaDeBrinquedos;Trusted_Connection=True;";
+    private string? _connectionString;
+
+    public RelatorioDeEstoqueController(IConfiguration configuration)
+    {
+        _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
+    }
 
     [HttpGet]
     public IActionResult GetRelatorioEstoque()

@@ -1,4 +1,4 @@
-﻿using LojaDeBrinquedos.API.Models;
+﻿using LojaDeBrinquedos.API.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -11,8 +11,12 @@ namespace LojaDeBrinquedos.API.Controllers;
 public class ClienteController : ControllerBase
 {
     private static List<Cliente> clientes = new();
+    private string? _connectionString;
 
-    private readonly string _connectionString = "Server=Natalli_i5;Database=LojaDeBrinquedos;Trusted_Connection=True;\r\n";
+    public ClienteController(IConfiguration configuration)
+    {
+        _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
+    }
 
     [HttpGet]
     public IActionResult Get()

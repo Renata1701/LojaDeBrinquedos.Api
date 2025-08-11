@@ -1,4 +1,4 @@
-﻿using LojaDeBrinquedos.API.Models;
+﻿using LojaDeBrinquedos.API.Domain.Entities;
 using Microsoft.Data.SqlClient;
 
 namespace LojaDeBrinquedos.API.Services;

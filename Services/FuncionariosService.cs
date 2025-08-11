@@ -1,61 +1,79 @@
-﻿using LojaDeBrinquedos.API.Models;
+﻿using LojaDeBrinquedos.API.Domain.Entities;
+using LojaDeBrinquedos.API.Domain.Interfaces;
 using Microsoft.Data.SqlClient;
 
 namespace LojaDeBrinquedos.API.Services;
 
-public class FuncionariosService
+public class FuncionariosService : IFuncionarioService
 {
-    private readonly string _connectionString;
+    public readonly string _connectionString;
 
     public FuncionariosService(IConfiguration configuration)
     {
         _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
     }
 
-    public async Task<List<Funcionarios>> ListarAsync()
+    private readonly List<Funcionarios> _funcionarios;
+
+    public FuncionariosService()
     {
-        var funcionarios = new List<Funcionarios>();
-
-        try
+        _funcionarios = new List<Funcionarios>
         {
-            using var conexao = new SqlConnection(_connectionString);
-            await conexao.OpenAsync();
-
-            var query = "SELECT Id, Nome, Cargo, Salario FROM Funcionarios";
-
-            using var comando = new SqlCommand(query, conexao);
-            using var leitor = await comando.ExecuteReaderAsync();
-
-        }
-        catch (Exception ex)
-        {
-            throw new Exception("Erro ao listar funcionários.", ex);
-        }
-
-        return funcionarios;
+            new Funcionarios(1, "Maria Souza", "Gerente", "maria@loja.com", "12345678900")
+        };
     }
 
-    public async Task<bool> AdicionarAsync(Funcionarios funcionario)
+    public IEnumerable<Funcionarios> ObterTodosFuncionarios()
     {
-        try
-        {
-            using var conexao = new SqlConnection(_connectionString);
-            await conexao.OpenAsync();
+        return _funcionarios;
+    }
 
-            var query = "INSERT INTO Funcionarios (Nome, Cargo, Salario) VALUES (@Nome, @Cargo, @Salario)";
-            using var comando = new SqlCommand(query, conexao);
+    public Funcionarios ObterFuncionarioPorId(int id)
+    {
+        return _funcionarios.FirstOrDefault(f => f.Id == id);
+    }
 
-            comando.Parameters.AddWithValue("@Nome", funcionario.Nome);
-            comando.Parameters.AddWithValue("@Cargo", funcionario.Cargo);
-            comando.Parameters.AddWithValue("@Salario", funcionario.Salario);
+    public void AtualizarFuncionario(Funcionarios funcionario)
+    {
+        if (funcionario == null) throw new ArgumentNullException(nameof(funcionario));
+        var existente = ObterFuncionarioPorId(funcionario.Id);
+        if (existente == null) throw new InvalidOperationException("Funcionário não encontrado.");
 
-            int linhasAfetadas = await comando.ExecuteNonQueryAsync();
+        existente.Nome = funcionario.Nome;
+        existente.Cargo = funcionario.Cargo;
+        existente.Email = funcionario.Email;
+        existente.Cpf = funcionario.Cpf;
+    }
 
-            return linhasAfetadas > 0;
-        }
-        catch (Exception)
-        {
-            return false;
-        }
+    public void RemoverFuncionario(int id)
+    {
+        var funcionario = ObterFuncionarioPorId(id);
+        if (funcionario == null) throw new InvalidOperationException("Funcionário não encontrado.");
+
+    }
+
+    public Task<IEnumerable<Funcionarios>> ObterTodosAsync()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<Funcionarios> ObterPorIdAsync(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<Funcionarios> AdicionarAsync(Funcionarios funcionario)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<Funcionarios> AtualizarAsync(Funcionarios funcionario)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<bool> ExcluirAsync(int id)
+    {
+        throw new NotImplementedException();
     }
 }

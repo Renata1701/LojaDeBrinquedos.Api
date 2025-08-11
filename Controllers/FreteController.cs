@@ -1,4 +1,4 @@
-﻿using LojaDeBrinquedos.API.Models;
+﻿using LojaDeBrinquedos.API.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,7 +8,12 @@ namespace LojaDeBrinquedos.API.Controllers;
 public class FreteController : ControllerBase
 {
     private static List<Frete> fretes = new();
+    private string? _connectionString;
 
+    public FreteController (IConfiguration configuration)
+    {
+        _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
+    }
     [HttpGet]
     public ActionResult<IEnumerable<Frete>> Get() => Ok(fretes);
 

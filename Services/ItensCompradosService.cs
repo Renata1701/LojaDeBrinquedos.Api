@@ -1,9 +1,10 @@
-﻿using LojaDeBrinquedos.API.Models;
+﻿using LojaDeBrinquedos.API.Domain.Entities;
+using LojaDeBrinquedos.API.Domain.Interfaces;
 using Microsoft.Data.SqlClient;
 
 namespace LojaDeBrinquedos.API.Services;
 
-public class ItensCompradosService
+public class ItensCompradosService : IItensCompradosService
 {
     private readonly string _connectionString;
 
@@ -12,54 +13,48 @@ public class ItensCompradosService
         _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
     }
 
-    public async Task<List<ItensComprados>> ListarAsync()
+    private readonly List<ItensComprados> _itens;
+
+
+    public void AdicionarItem(ItensComprados item)
     {
-        var itens = new List<ItensComprados>();
+        if (item == null)
+            throw new ArgumentNullException(nameof(item));
 
-        try
-        {
-            using var conexao = new SqlConnection(_connectionString);
-            await conexao.OpenAsync();
+        if (_itens.Any(i => i.Id == item.Id))
+            throw new InvalidOperationException("Item já existe.");
 
-            var query = "SELECT Id, PedidoId, ProdutoId, Quantidade, PrecoUnitario FROM ItensComprados";
-
-            using var comando = new SqlCommand(query, conexao);
-            using var leitor = await comando.ExecuteReaderAsync();
-
-        }
-        catch (Exception ex)
-        {
-            throw new Exception("Erro ao listar itens comprados.", ex);
-        }
-
-        return itens;
+        _itens.Add(item);
     }
 
-    public async Task<bool> AdicionarAsync(ItensComprados item)
+    public IEnumerable<ItensComprados> ObterTodosItens()
     {
-        try
-        {
-            using var conexao = new SqlConnection(_connectionString);
-            await conexao.OpenAsync();
+        return _itens;
+    }
 
-            var query = @"INSERT INTO ItensComprados (PedidoId, ProdutoId, Quantidade, PrecoUnitario)
-                              VALUES (@PedidoId, @ProdutoId, @Quantidade, @PrecoUnitario)";
+    public ItensComprados ObterItemPorId(int id)
+    {
+        return _itens.FirstOrDefault(i => i.Id == id);
+    }
 
-            using var comando = new SqlCommand(query, conexao);
+    public void AtualizarItem(ItensComprados item)
+    {
+        var existente = ObterItemPorId(item.Id);
+        if (existente == null)
+            throw new InvalidOperationException("Item não encontrado.");
 
-            comando.Parameters.AddWithValue("@PedidoId", item.PedidoId);
-            comando.Parameters.AddWithValue("@ProdutoId", item.ProdutoId);
-            comando.Parameters.AddWithValue("@Quantidade", item.Quantidade);
-            comando.Parameters.AddWithValue("@PrecoUnitario", item.PrecoUnitario);
+        existente.ProdutoId = item.ProdutoId;
+        existente.PedidoId = item.PedidoId;
+        existente.Quantidade = item.Quantidade;
+        existente.PrecoUnitario = item.PrecoUnitario;
+    }
 
-            int linhasAfetadas = await comando.ExecuteNonQueryAsync();
+    public void RemoverItem(int id)
+    {
+        var item = ObterItemPorId(id);
+        if (item == null)
+            throw new InvalidOperationException("Item não encontrado.");
 
-            return linhasAfetadas > 0;
-        }
-        catch (Exception)
-        {
-            return false;
-        }
+        _itens.Remove(item);
     }
 }
-

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using LojaDeBrinquedos.API.Domain.Entities;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 
@@ -7,7 +8,12 @@ namespace LojaDeBrinquedos.API.Controllers;
 [ApiController]
 public class CategoriaController : ControllerBase
 {
-    private readonly string _connectionString = "Server=Natalli_i5;Database=LojaDeBrinquedos;Trusted_Connection=True;";
+    private string? _connectionString;
+
+    public CategoriaController(IConfiguration configuration)
+    {
+        _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
+    }
 
     [HttpGet]
     public IActionResult Get()
@@ -35,7 +41,7 @@ public class CategoriaController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public ActionResult<Models.CategoriaService> GetCategoria(int id)
+    public ActionResult<CategoriaService> GetCategoria(int id)
     {
         var categoria = new Models.CategoriaService(1, "Brinquedos de Construção");
 
@@ -47,13 +53,13 @@ public class CategoriaController : ControllerBase
         return Ok(categoria);
     }
     [HttpPost]
-    public ActionResult<Models.CategoriaService> CreateCategoria(Models.CategoriaService categoria)
+    public ActionResult<CategoriaService> CreateCategoria(CategoriaService categoria)
     {
         categoria.Id = 4;
         return CreatedAtAction(nameof(GetCategoria), new { id = categoria.Id }, categoria);
     }
     [HttpPut("{id}")]
-    public ActionResult UpdateCategoria(int id, Models.CategoriaService categoriaAtualizada)
+    public ActionResult UpdateCategoria(int id, CategoriaService categoriaAtualizada)
     {
         if (id != categoriaAtualizada.Id)
         {
