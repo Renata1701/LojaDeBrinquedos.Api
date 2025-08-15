@@ -214,37 +214,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IItensCompradosService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IItensCompradosService.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IItensCompradosService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IItensCompradosService.cs*",
-              "RelativeToolTip": "Domain\\Interfaces\\IItensCompradosService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T23:06:11.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITransportadoraService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\ITransportadoraService.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\ITransportadoraService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\ITransportadoraService.cs*",
-              "RelativeToolTip": "Domain\\Interfaces\\ITransportadoraService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T22:56:23.088Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -317,11 +291,37 @@
               "Title": "ItensCompradosService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\ItensCompradosService.cs",
               "RelativeDocumentMoniker": "Services\\ItensCompradosService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\ItensCompradosService.cs*",
-              "RelativeToolTip": "Services\\ItensCompradosService.cs*",
+              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\ItensCompradosService.cs",
+              "RelativeToolTip": "Services\\ItensCompradosService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T22:06:34.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITransportadoraService.cs",
+              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\ITransportadoraService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\ITransportadoraService.cs",
+              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\ITransportadoraService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\ITransportadoraService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T22:56:23.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IItensCompradosService.cs",
+              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IItensCompradosService.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IItensCompradosService.cs",
+              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IItensCompradosService.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IItensCompradosService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T23:06:11.18Z",
               "EditorCaption": ""
             },
             {
@@ -343,8 +343,8 @@
               "Title": "TransportadoraService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\TransportadoraService.cs",
               "RelativeDocumentMoniker": "Services\\TransportadoraService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\TransportadoraService.cs*",
-              "RelativeToolTip": "Services\\TransportadoraService.cs*",
+              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\TransportadoraService.cs",
+              "RelativeToolTip": "Services\\TransportadoraService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T22:37:45.552Z",

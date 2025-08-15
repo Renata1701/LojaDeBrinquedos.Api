@@ -230,8 +230,7 @@
               "RelativeToolTip": "Services\\ClienteService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:34:31.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:34:31.383Z"
             },
             {
               "$type": "Document",
@@ -243,8 +242,7 @@
               "RelativeToolTip": "Domain\\Entities\\Estoque.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:03:33.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:03:33.125Z"
             },
             {
               "$type": "Document",
@@ -256,8 +254,7 @@
               "RelativeToolTip": "Services\\ProdutoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:00:48.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:00:48.061Z"
             },
             {
               "$type": "Document",
@@ -269,8 +266,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IFuncionarioService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T19:04:19.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T19:04:19.991Z"
             },
             {
               "$type": "Document",
@@ -282,8 +278,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IClienteService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T19:11:30.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T19:11:30.119Z"
             },
             {
               "$type": "Document",
@@ -308,8 +303,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\ITransportadoraService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T22:56:23.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T22:56:23.088Z"
             },
             {
               "$type": "Document",
@@ -321,8 +315,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IItensCompradosService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T23:06:11.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T23:06:11.18Z"
             },
             {
               "$type": "Document",
@@ -334,8 +327,7 @@
               "RelativeToolTip": "Services\\FuncionariosService.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAAADsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:38:24.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:38:24.897Z"
             },
             {
               "$type": "Document",
@@ -347,8 +339,7 @@
               "RelativeToolTip": "Services\\TransportadoraService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:37:45.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:37:45.552Z"
             },
             {
               "$type": "Document",
@@ -360,8 +351,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IPedidoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T18:52:34.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T18:52:34.811Z"
             },
             {
               "$type": "Document",
@@ -373,8 +363,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IPagamentoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T18:58:58.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T18:58:58.807Z"
             },
             {
               "$type": "Document",
@@ -386,8 +375,7 @@
               "RelativeToolTip": "Services\\PedidoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:35:08.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:35:08.394Z"
             },
             {
               "$type": "Document",
@@ -399,8 +387,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IProdutoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T18:43:00.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T18:43:00.314Z"
             },
             {
               "$type": "Document",
@@ -412,8 +399,7 @@
               "RelativeToolTip": "Controllers\\RelatorioDeEstoqueController.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T00:00:12.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T00:00:12.496Z"
             },
             {
               "$type": "Document",
@@ -425,8 +411,7 @@
               "RelativeToolTip": "Controllers\\PedidoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:29:48.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:29:48.268Z"
             },
             {
               "$type": "Document",
@@ -438,8 +423,7 @@
               "RelativeToolTip": "Services\\PagamentoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:36:16.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:36:16.788Z"
             },
             {
               "$type": "Document",
@@ -451,8 +435,7 @@
               "RelativeToolTip": "Services\\CategoriaService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:04:25.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:04:25.803Z"
             },
             {
               "$type": "Document",
@@ -464,8 +447,7 @@
               "RelativeToolTip": "Controllers\\ProdutoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:48:26.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:48:26.221Z"
             },
             {
               "$type": "Document",
@@ -477,8 +459,7 @@
               "RelativeToolTip": "Controllers\\PagamentoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T19:53:20.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T19:53:20.446Z"
             },
             {
               "$type": "Document",
@@ -490,8 +471,7 @@
               "RelativeToolTip": "Controllers\\EntregaController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T19:51:30.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T19:51:30.122Z"
             },
             {
               "$type": "Document",
@@ -503,8 +483,7 @@
               "RelativeToolTip": "Controllers\\NewsLetterController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T21:08:12.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T21:08:12.498Z"
             },
             {
               "$type": "Document",
@@ -516,8 +495,7 @@
               "RelativeToolTip": "Controllers\\ItensCompradosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T21:11:49.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T21:11:49.742Z"
             },
             {
               "$type": "Document",
@@ -529,8 +507,7 @@
               "RelativeToolTip": "Controllers\\LojaController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAswA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:49:41.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:49:41.393Z"
             },
             {
               "$type": "Document",
@@ -542,8 +519,7 @@
               "RelativeToolTip": "Controllers\\FuncionariosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:46:30.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:46:30.567Z"
             },
             {
               "$type": "Document",
@@ -555,8 +531,7 @@
               "RelativeToolTip": "Controllers\\FreteController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T20:51:56.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T20:51:56.7Z"
             },
             {
               "$type": "Document",
@@ -568,8 +543,7 @@
               "RelativeToolTip": "Controllers\\FornecedorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T19:17:40.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T19:17:40.252Z"
             },
             {
               "$type": "Document",
@@ -581,8 +555,7 @@
               "RelativeToolTip": "Controllers\\EstoqueController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:41:07.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:41:07.356Z"
             },
             {
               "$type": "Document",
@@ -594,8 +567,7 @@
               "RelativeToolTip": "Controllers\\CupomDeDescontoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:54:19.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:54:19.379Z"
             },
             {
               "$type": "Document",
@@ -607,8 +579,7 @@
               "RelativeToolTip": "Controllers\\CategoriaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:53:09.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:53:09.084Z"
             },
             {
               "$type": "Document",
@@ -620,8 +591,7 @@
               "RelativeToolTip": "Controllers\\ProgramaFidelidadeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:56:50.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:56:50.031Z"
             },
             {
               "$type": "Document",
@@ -633,8 +603,7 @@
               "RelativeToolTip": "Controllers\\ClienteController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:43:06.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:43:06.38Z"
             },
             {
               "$type": "Document",
@@ -646,8 +615,7 @@
               "RelativeToolTip": "Services\\ProgramaFidelidadeService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:40:20.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:40:20.81Z"
             },
             {
               "$type": "Document",
@@ -659,8 +627,7 @@
               "RelativeToolTip": "Services\\CupomDeDescontoService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:39:28.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:39:28.426Z"
             },
             {
               "$type": "Document",
@@ -672,8 +639,7 @@
               "RelativeToolTip": "Services\\NewLestterService.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:41:21.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:41:21.522Z"
             },
             {
               "$type": "Document",
@@ -685,8 +651,7 @@
               "RelativeToolTip": "Services\\FornecedorService.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAEYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:05:42.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:05:42.412Z"
             },
             {
               "$type": "Document",
@@ -698,8 +663,7 @@
               "RelativeToolTip": "Services\\EntregaService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAABoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:36:59.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:36:59.371Z"
             },
             {
               "$type": "Document",
@@ -711,8 +675,7 @@
               "RelativeToolTip": "Domain\\Entities\\Produto.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:20:38.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:20:38.514Z"
             },
             {
               "$type": "Document",
@@ -724,8 +687,7 @@
               "RelativeToolTip": "Domain\\Entities\\DateBaseConex\u00E3o.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T23:07:56.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T23:07:56.923Z"
             },
             {
               "$type": "Document",
@@ -737,8 +699,7 @@
               "RelativeToolTip": "Domain\\Entities\\RelatorioDeEstoque.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T21:22:17.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T21:22:17.98Z"
             },
             {
               "$type": "Document",
@@ -750,8 +711,7 @@
               "RelativeToolTip": "Domain\\Entities\\Frete.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:05:16.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:05:16.081Z"
             },
             {
               "$type": "Document",
@@ -763,8 +723,7 @@
               "RelativeToolTip": "Domain\\Entities\\ItensComprados.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:14:26.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:14:26.091Z"
             },
             {
               "$type": "Document",
@@ -776,8 +735,7 @@
               "RelativeToolTip": "Domain\\Entities\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:00:17.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:00:17.369Z"
             },
             {
               "$type": "Document",
@@ -789,8 +747,7 @@
               "RelativeToolTip": "Domain\\Entities\\Entrega.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:02:45.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:02:45.462Z"
             },
             {
               "$type": "Document",
@@ -802,8 +759,7 @@
               "RelativeToolTip": "Domain\\Entities\\CupomDeDesconto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAQwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:01:58.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:01:58.368Z"
             },
             {
               "$type": "Document",
@@ -815,8 +771,7 @@
               "RelativeToolTip": "Domain\\Entities\\Fornecedor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:04:26.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:04:26.515Z"
             },
             {
               "$type": "Document",
@@ -828,8 +783,7 @@
               "RelativeToolTip": "Domain\\Entities\\Loja.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:15:18.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:15:18.952Z"
             },
             {
               "$type": "Document",
@@ -841,8 +795,7 @@
               "RelativeToolTip": "Domain\\Entities\\HistoricoDeVendas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:13:51.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:13:51.411Z"
             },
             {
               "$type": "Document",
@@ -854,8 +807,7 @@
               "RelativeToolTip": "Domain\\Entities\\Funcionarios.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAUwBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:13:02.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:13:02.579Z"
             },
             {
               "$type": "Document",
@@ -867,8 +819,7 @@
               "RelativeToolTip": "Domain\\Entities\\CompraEstoque.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:01:14.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:01:14.265Z"
             },
             {
               "$type": "Document",
@@ -880,8 +831,7 @@
               "RelativeToolTip": "Domain\\Entities\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T20:57:49.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T20:57:49.764Z"
             }
           ]
         }
