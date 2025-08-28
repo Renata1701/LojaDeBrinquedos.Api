@@ -142,17 +142,26 @@ git clone <url-do-repositorio>
 cd LojaDeBrinquedos.API
 ```
 
-2. **Inicie o banco de dados com Docker**
+2. **Configure as credenciais do banco**
+```bash
+# Copie o arquivo de exemplo
+cp env.example .env
+
+# Edite o arquivo .env com suas credenciais
+nano .env
+```
+
+3. **Inicie o banco de dados com Docker**
 ```bash
 docker-compose up -d
 ```
 
-3. **Restaura as dependências**
+4. **Restaura as dependências**
 ```bash
 dotnet restore
 ```
 
-4. **Execute a aplicação**
+5. **Execute a aplicação**
 ```bash
 dotnet run
 ```

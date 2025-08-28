@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LojaDeBrinquedos.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66b2861ae8fd6c8d11d9ce8fdceebde4c8c9d2aa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c240211da2dd83a30c54c08b4aae46c79c05e52")]
 [assembly: System.Reflection.AssemblyProductAttribute("LojaDeBrinquedos.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LojaDeBrinquedos.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
