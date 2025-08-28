@@ -3,84 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\services\\pagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\services\\pagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9220539-EEA2-4280-8E89-F68EF198C546}|LojaDeBrinquedos.Aplicattion\\LojaDeBrinquedos.Aplicattion.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.aplicattion\\services\\newlestterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9220539-EEA2-4280-8E89-F68EF198C546}|LojaDeBrinquedos.Aplicattion\\LojaDeBrinquedos.Aplicattion.csproj|solutionrelative:lojadebrinquedos.aplicattion\\services\\newlestterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\interfaces\\ipagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\interfaces\\ipagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9220539-EEA2-4280-8E89-F68EF198C546}|LojaDeBrinquedos.Aplicattion\\LojaDeBrinquedos.Aplicattion.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.aplicattion\\services\\entregaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9220539-EEA2-4280-8E89-F68EF198C546}|LojaDeBrinquedos.Aplicattion\\LojaDeBrinquedos.Aplicattion.csproj|solutionrelative:lojadebrinquedos.aplicattion\\services\\entregaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61E1C276-0021-E3B9-0EFB-45DF77A4E4A5}|..\\LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\interfaces\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\interfaces\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61E1C276-0021-E3B9-0EFB-45DF77A4E4A5}|..\\LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\resultmodel\\categoriaresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9220539-EEA2-4280-8E89-F68EF198C546}|LojaDeBrinquedos.Aplicattion\\LojaDeBrinquedos.Aplicattion.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.aplicattion\\interfaces\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9220539-EEA2-4280-8E89-F68EF198C546}|LojaDeBrinquedos.Aplicattion\\LojaDeBrinquedos.Aplicattion.csproj|solutionrelative:lojadebrinquedos.aplicattion\\interfaces\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\interfaces\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\interfaces\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\interfaces\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\interfaces\\icategoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9220539-EEA2-4280-8E89-F68EF198C546}|LojaDeBrinquedos.Aplicattion\\LojaDeBrinquedos.Aplicattion.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.aplicattion\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9220539-EEA2-4280-8E89-F68EF198C546}|LojaDeBrinquedos.Aplicattion\\LojaDeBrinquedos.Aplicattion.csproj|solutionrelative:lojadebrinquedos.aplicattion\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61E1C276-0021-E3B9-0EFB-45DF77A4E4A5}|..\\LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\model\\categoriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\entities\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\entities\\pagamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\entities\\itenscomprados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\entities\\itenscomprados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\entities\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\entities\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\entities\\frete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\entities\\frete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\entities\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\entities\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\lojadebrinquedos\\lojadebrinquedos.domain\\entities\\entrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1486CFA6-2489-4EA6-A19E-185F87A0B665}|LojaDeBrinquedos.Domain\\LojaDeBrinquedos.Domain.csproj|solutionrelative:lojadebrinquedos.domain\\entities\\entrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61E1C276-0021-E3B9-0EFB-45DF77A4E4A5}|..\\LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,270 +42,127 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewLestterService.cs",
+              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Aplicattion\\Services\\NewLestterService.cs",
+              "RelativeDocumentMoniker": "LojaDeBrinquedos.Aplicattion\\Services\\NewLestterService.cs",
+              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Aplicattion\\Services\\NewLestterService.cs",
+              "RelativeToolTip": "LojaDeBrinquedos.Aplicattion\\Services\\NewLestterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T22:27:41.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntregaService.cs",
+              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Aplicattion\\Services\\EntregaService.cs",
+              "RelativeDocumentMoniker": "LojaDeBrinquedos.Aplicattion\\Services\\EntregaService.cs",
+              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Aplicattion\\Services\\EntregaService.cs",
+              "RelativeToolTip": "LojaDeBrinquedos.Aplicattion\\Services\\EntregaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T22:23:31.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Aplicattion\\Interfaces\\ICategoriaService.cs",
+              "RelativeDocumentMoniker": "LojaDeBrinquedos.Aplicattion\\Interfaces\\ICategoriaService.cs",
+              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Aplicattion\\Interfaces\\ICategoriaService.cs",
+              "RelativeToolTip": "LojaDeBrinquedos.Aplicattion\\Interfaces\\ICategoriaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T22:05:51.091Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PagamentoService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Services\\PagamentoService.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Services\\PagamentoService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Services\\PagamentoService.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Services\\PagamentoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T21:45:47.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IPagamentoService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Interfaces\\IPagamentoService.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Interfaces\\IPagamentoService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Interfaces\\IPagamentoService.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Interfaces\\IPagamentoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T21:44:03.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IClienteService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Interfaces\\IClienteService.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Interfaces\\IClienteService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Interfaces\\IClienteService.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Interfaces\\IClienteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T21:38:09.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProdutoService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Services\\ProdutoService.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Services\\ProdutoService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Services\\ProdutoService.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Services\\ProdutoService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAEQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T21:35:59.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IProdutoService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Interfaces\\IProdutoService.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Interfaces\\IProdutoService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Interfaces\\IProdutoService.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Interfaces\\IProdutoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Aplicattion\\Services\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "LojaDeBrinquedos.Aplicattion\\Services\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Aplicattion\\Services\\CategoriaService.cs",
+              "RelativeToolTip": "LojaDeBrinquedos.Aplicattion\\Services\\CategoriaService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T21:34:58.516Z",
+              "WhenOpened": "2025-08-28T21:58:01.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PedidoService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Services\\PedidoService.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Services\\PedidoService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Services\\PedidoService.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Services\\PedidoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T21:32:46.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IPedidoService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Interfaces\\IPedidoService.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Interfaces\\IPedidoService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Interfaces\\IPedidoService.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Interfaces\\IPedidoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T21:32:14.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClienteService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Services\\ClienteService.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Services\\ClienteService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Services\\ClienteService.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Services\\ClienteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T21:18:48.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ItensComprados.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\ItensComprados.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Entities\\ItensComprados.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\ItensComprados.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Entities\\ItensComprados.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:32:11.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Pagamento.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Pagamento.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Entities\\Pagamento.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Pagamento.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Entities\\Pagamento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:31:06.909Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Cliente.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Entities\\Cliente.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Cliente.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Entities\\Cliente.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvxwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:26:36.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Pedido.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Entities\\Pedido.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Pedido.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Entities\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:25:23.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Produto.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Entities\\Produto.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Produto.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Entities\\Produto.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswAcAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:24:38.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ICategoriaService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Interfaces\\ICategoriaService.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Interfaces\\ICategoriaService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Interfaces\\ICategoriaService.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Interfaces\\ICategoriaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:39:47.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoriaService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Services\\CategoriaService.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Services\\CategoriaService.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Services\\CategoriaService.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Services\\CategoriaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:44:01.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Categoria.cs",
               "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Entities\\Categoria.cs",
               "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Categoria.cs",
               "RelativeToolTip": "LojaDeBrinquedos.Domain\\Entities\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:24:56.19Z",
+              "WhenOpened": "2025-08-28T21:52:22.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Funcionarios.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Funcionarios.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Entities\\Funcionarios.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Funcionarios.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Entities\\Funcionarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "..\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "..\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:30:46.428Z",
+              "WhenOpened": "2025-08-28T21:50:52.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Frete.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Frete.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Entities\\Frete.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Frete.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Entities\\Frete.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CategoriaResult.cs",
+              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\ResultModel\\CategoriaResult.cs",
+              "RelativeDocumentMoniker": "..\\ResultModel\\CategoriaResult.cs",
+              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\ResultModel\\CategoriaResult.cs",
+              "RelativeToolTip": "..\\ResultModel\\CategoriaResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:32:53.23Z",
+              "WhenOpened": "2025-08-28T22:01:47.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Fornecedor.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Fornecedor.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Entities\\Fornecedor.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Fornecedor.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Entities\\Fornecedor.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswAkAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "CategoriaModel.cs",
+              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Model\\CategoriaModel.cs",
+              "RelativeDocumentMoniker": "..\\Model\\CategoriaModel.cs",
+              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Model\\CategoriaModel.cs",
+              "RelativeToolTip": "..\\Model\\CategoriaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:33:36.593Z",
+              "WhenOpened": "2025-08-28T21:59:45.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Entrega.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Entrega.cs",
-              "RelativeDocumentMoniker": "LojaDeBrinquedos.Domain\\Entities\\Entrega.cs",
-              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\LojaDeBrinquedos\\LojaDeBrinquedos.Domain\\Entities\\Entrega.cs",
-              "RelativeToolTip": "LojaDeBrinquedos.Domain\\Entities\\Entrega.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T20:26:12.808Z",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\appsettings.json",
+              "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\appsettings.json",
+              "RelativeToolTip": "..\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-28T21:50:56.398Z",
               "EditorCaption": ""
             }
           ]

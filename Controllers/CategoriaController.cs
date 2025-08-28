@@ -1,5 +1,6 @@
-﻿using LojaDeBrinquedos.API.Domain.Entities;
-using Microsoft.AspNetCore.Http;
+﻿using LojaDeBrinquedos.API.ResultModel;
+using LojaDeBrinquedos.Domain.Entities;
+using LojaDeBrinquedos.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 
@@ -9,10 +10,15 @@ namespace LojaDeBrinquedos.API.Controllers;
 public class CategoriaController : ControllerBase
 {
     private string? _connectionString;
+    private readonly IConfiguration _configuration;
+    private readonly ICategoriaService _categoriaService;
 
-    public CategoriaController(IConfiguration configuration)
+
+    public CategoriaController(IConfiguration configuration, ICategoriaService categoriaService)
     {
+        _configuration = configuration;
         _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
+        _categoriaService = categoriaService;
     }
 
     [HttpGet]
@@ -41,32 +47,35 @@ public class CategoriaController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public ActionResult<CategoriaService> GetCategoria(int id)
+    public ActionResult<CategoriaResult> GetCategoria(Guid id)
     {
-        var categoria = new Models.CategoriaService(1, "Brinquedos de Construção");
+        var categoria = _categoriaService.BuscarPorId(id);
 
         if (categoria.Id != id)
         {
             return NotFound();
         }
-
-        return Ok(categoria);
+        return Ok(new CategoriaResult(categoria.Nome, categoria.Descricao));
     }
+
     [HttpPost]
-    public ActionResult<CategoriaService> CreateCategoria(CategoriaService categoria)
+    public ActionResult<bool> CreateCategoria(Categoria categoria)
     {
-        categoria.Id = 4;
-        return CreatedAtAction(nameof(GetCategoria), new { id = categoria.Id }, categoria);
+        var result = _categoriaService.Criar(categoria);
+        return Ok(result);
     }
     [HttpPut("{id}")]
-    public ActionResult UpdateCategoria(int id, CategoriaService categoriaAtualizada)
+    public ActionResult<CategoriaResult> UpdateOrCreateCategoria(Guid id, Categoria categoria)
     {
+        var categoriaAtualizada = _categoriaService.BuscarPorId(categoria.Id);
         if (id != categoriaAtualizada.Id)
         {
+            _categoriaService.Criar(categoria);
             return BadRequest();
         }
+        _categoriaService.Atualizar(categoria);
 
-        return NoContent();
+        return Ok(new CategoriaResult(categoria.Nome, categoria.Descricao));
     }
     [HttpDelete("{id}")]
     public ActionResult DeleteCategoria(int id)

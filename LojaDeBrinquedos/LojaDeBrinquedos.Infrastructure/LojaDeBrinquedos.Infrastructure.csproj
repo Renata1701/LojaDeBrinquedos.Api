@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="9.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\LojaDeBrinquedos.API.csproj" />
     <ProjectReference Include="..\LojaDeBrinquedos.Domain\LojaDeBrinquedos.Domain.csproj" />
   </ItemGroup>

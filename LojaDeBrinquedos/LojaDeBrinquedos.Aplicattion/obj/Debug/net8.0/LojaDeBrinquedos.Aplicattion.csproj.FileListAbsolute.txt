@@ -1,0 +1,6 @@
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\LojaDeBrinquedos.Aplicattion.csproj.AssemblyReference.cache
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\LojaDeBrinquedos.Aplicattion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\LojaDeBrinquedos.Aplicattion.AssemblyInfoInputs.cache
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\LojaDeBrinquedos.Aplicattion.AssemblyInfo.cs
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\LojaDeBrinquedos.Aplicattion.csproj.CoreCompileInputs.cache
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\LojaDeBrinquedos.Aplicattion.sourcelink.json

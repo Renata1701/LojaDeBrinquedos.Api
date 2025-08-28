@@ -3,68 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\itenscompradosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\itenscompradosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\interfaces\\iitenscompradosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\interfaces\\iitenscompradosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\transportadoraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\transportadoraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\interfaces\\itransportadoraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\interfaces\\itransportadoraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\interfaces\\ifuncionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\interfaces\\ifuncionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\interfaces\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\interfaces\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\funcionariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\funcionariosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\interfaces\\ipagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\interfaces\\ipagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\pagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\pagamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\interfaces\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\interfaces\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\interfaces\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\ItensCompradosService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ItensCompradosService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\controllers\\entregacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,80 +71,140 @@
       "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\programafidelidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\programafidelidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\ClienteService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ClienteService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\newlestterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\newlestterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\Estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\Estoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\cupomdedescontoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\cupomdedescontoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\ProdutoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ProdutoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\fornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\fornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IFuncionarioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\IFuncionarioService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\services\\entregaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:services\\entregaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IClienteService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\IClienteService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\ITransportadoraService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\ITransportadoraService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\datebaseconex\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\datebaseconex\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IItensCompradosService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\IItensCompradosService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\relatoriodeestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\relatoriodeestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\FuncionariosService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\FuncionariosService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\itenscomprados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\itenscomprados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\TransportadoraService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\TransportadoraService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\frete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\frete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IPedidoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\IPedidoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IPagamentoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\IPagamentoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\entrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\entrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\PedidoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\PedidoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IProdutoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Interfaces\\IProdutoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\cupomdedesconto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\cupomdedesconto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\PagamentoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\PagamentoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\CategoriaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\CategoriaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\historicodevendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\historicodevendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\ProgramaFidelidadeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ProgramaFidelidadeService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\CupomDeDescontoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\CupomDeDescontoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\compraestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\compraestoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\NewLestterService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\NewLestterService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|c:\\users\\renat\\onedrive\\documentos\\lojadebrinquedos.api\\domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{717E2719-3D3B-409F-898C-896B468D707F}|LojaDeBrinquedos.API.csproj|solutionrelative:domain\\entities\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\FornecedorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\FornecedorService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\EntregaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\EntregaService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\Produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\Produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\DateBaseConex\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\DateBaseConex\u00E3o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\RelatorioDeEstoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\RelatorioDeEstoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\Frete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\Frete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\ItensComprados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\ItensComprados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\Cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\Cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\Entrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\Entrega.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\CupomDeDesconto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\CupomDeDesconto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\Fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\Fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\Loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\Loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\HistoricoDeVendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\HistoricoDeVendas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\Funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\Funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\CompraEstoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\CompraEstoque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\Categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\Entities\\Categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -222,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "ClienteService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\ClienteService.cs",
               "RelativeDocumentMoniker": "Services\\ClienteService.cs",
@@ -230,12 +230,11 @@
               "RelativeToolTip": "Services\\ClienteService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:34:31.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:34:31.383Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "Estoque.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\Estoque.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Estoque.cs",
@@ -243,12 +242,11 @@
               "RelativeToolTip": "Domain\\Entities\\Estoque.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:03:33.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:03:33.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
               "Title": "ProdutoService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\ProdutoService.cs",
               "RelativeDocumentMoniker": "Services\\ProdutoService.cs",
@@ -256,12 +254,11 @@
               "RelativeToolTip": "Services\\ProdutoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:00:48.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:00:48.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "IFuncionarioService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IFuncionarioService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IFuncionarioService.cs",
@@ -269,12 +266,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IFuncionarioService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T19:04:19.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T19:04:19.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "IClienteService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IClienteService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IClienteService.cs",
@@ -282,8 +278,7 @@
               "RelativeToolTip": "Domain\\Interfaces\\IClienteService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T19:11:30.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T19:11:30.119Z"
             },
             {
               "$type": "Document",
@@ -293,14 +288,12 @@
               "RelativeDocumentMoniker": "Services\\ItensCompradosService.cs",
               "ToolTip": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\ItensCompradosService.cs",
               "RelativeToolTip": "Services\\ItensCompradosService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:06:34.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:06:34.578Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 22,
               "Title": "ITransportadoraService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\ITransportadoraService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\ITransportadoraService.cs",
@@ -308,12 +301,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\ITransportadoraService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T22:56:23.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T22:56:23.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 23,
               "Title": "IItensCompradosService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IItensCompradosService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IItensCompradosService.cs",
@@ -321,12 +313,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IItensCompradosService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T23:06:11.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-06T23:06:11.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 24,
               "Title": "FuncionariosService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\FuncionariosService.cs",
               "RelativeDocumentMoniker": "Services\\FuncionariosService.cs",
@@ -334,12 +325,11 @@
               "RelativeToolTip": "Services\\FuncionariosService.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAAADsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:38:24.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:38:24.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 25,
               "Title": "TransportadoraService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\TransportadoraService.cs",
               "RelativeDocumentMoniker": "Services\\TransportadoraService.cs",
@@ -347,12 +337,11 @@
               "RelativeToolTip": "Services\\TransportadoraService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:37:45.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:37:45.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "IPedidoService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IPedidoService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IPedidoService.cs",
@@ -360,12 +349,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IPedidoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T18:52:34.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T18:52:34.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 27,
               "Title": "IPagamentoService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IPagamentoService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IPagamentoService.cs",
@@ -373,12 +361,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IPagamentoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T18:58:58.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T18:58:58.807Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "PedidoService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\PedidoService.cs",
               "RelativeDocumentMoniker": "Services\\PedidoService.cs",
@@ -386,12 +373,11 @@
               "RelativeToolTip": "Services\\PedidoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:35:08.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:35:08.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
               "Title": "IProdutoService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Interfaces\\IProdutoService.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IProdutoService.cs",
@@ -399,12 +385,11 @@
               "RelativeToolTip": "Domain\\Interfaces\\IProdutoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T18:43:00.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T18:43:00.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 2,
               "Title": "RelatorioDeEstoqueController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\RelatorioDeEstoqueController.cs",
               "RelativeDocumentMoniker": "Controllers\\RelatorioDeEstoqueController.cs",
@@ -412,12 +397,11 @@
               "RelativeToolTip": "Controllers\\RelatorioDeEstoqueController.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T00:00:12.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T00:00:12.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 4,
               "Title": "PedidoController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\PedidoController.cs",
               "RelativeDocumentMoniker": "Controllers\\PedidoController.cs",
@@ -425,12 +409,11 @@
               "RelativeToolTip": "Controllers\\PedidoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:29:48.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:29:48.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 30,
               "Title": "PagamentoService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\PagamentoService.cs",
               "RelativeDocumentMoniker": "Services\\PagamentoService.cs",
@@ -438,12 +421,11 @@
               "RelativeToolTip": "Services\\PagamentoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:36:16.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:36:16.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 31,
               "Title": "CategoriaService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\CategoriaService.cs",
               "RelativeDocumentMoniker": "Services\\CategoriaService.cs",
@@ -451,12 +433,11 @@
               "RelativeToolTip": "Services\\CategoriaService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAAA8AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:04:25.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:04:25.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 3,
               "Title": "ProdutoController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProdutoController.cs",
@@ -464,12 +445,11 @@
               "RelativeToolTip": "Controllers\\ProdutoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:48:26.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:48:26.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 5,
               "Title": "PagamentoController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\PagamentoController.cs",
               "RelativeDocumentMoniker": "Controllers\\PagamentoController.cs",
@@ -477,12 +457,11 @@
               "RelativeToolTip": "Controllers\\PagamentoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T19:53:20.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T19:53:20.446Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 1,
               "Title": "EntregaController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\EntregaController.cs",
               "RelativeDocumentMoniker": "Controllers\\EntregaController.cs",
@@ -490,12 +469,11 @@
               "RelativeToolTip": "Controllers\\EntregaController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T19:51:30.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T19:51:30.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 6,
               "Title": "NewsLetterController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\NewsLetterController.cs",
               "RelativeDocumentMoniker": "Controllers\\NewsLetterController.cs",
@@ -503,12 +481,11 @@
               "RelativeToolTip": "Controllers\\NewsLetterController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T21:08:12.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T21:08:12.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 7,
               "Title": "ItensCompradosController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\ItensCompradosController.cs",
               "RelativeDocumentMoniker": "Controllers\\ItensCompradosController.cs",
@@ -516,12 +493,11 @@
               "RelativeToolTip": "Controllers\\ItensCompradosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T21:11:49.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T21:11:49.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 8,
               "Title": "LojaController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\LojaController.cs",
               "RelativeDocumentMoniker": "Controllers\\LojaController.cs",
@@ -529,12 +505,11 @@
               "RelativeToolTip": "Controllers\\LojaController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAswA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:49:41.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:49:41.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 9,
               "Title": "FuncionariosController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\FuncionariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\FuncionariosController.cs",
@@ -542,12 +517,11 @@
               "RelativeToolTip": "Controllers\\FuncionariosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:46:30.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:46:30.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 10,
               "Title": "FreteController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\FreteController.cs",
               "RelativeDocumentMoniker": "Controllers\\FreteController.cs",
@@ -555,12 +529,11 @@
               "RelativeToolTip": "Controllers\\FreteController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T20:51:56.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T20:51:56.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 11,
               "Title": "FornecedorController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\FornecedorController.cs",
               "RelativeDocumentMoniker": "Controllers\\FornecedorController.cs",
@@ -568,12 +541,11 @@
               "RelativeToolTip": "Controllers\\FornecedorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T19:17:40.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T19:17:40.252Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 12,
               "Title": "EstoqueController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\EstoqueController.cs",
               "RelativeDocumentMoniker": "Controllers\\EstoqueController.cs",
@@ -581,12 +553,11 @@
               "RelativeToolTip": "Controllers\\EstoqueController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:41:07.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:41:07.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 13,
               "Title": "CupomDeDescontoController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\CupomDeDescontoController.cs",
               "RelativeDocumentMoniker": "Controllers\\CupomDeDescontoController.cs",
@@ -594,12 +565,11 @@
               "RelativeToolTip": "Controllers\\CupomDeDescontoController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:54:19.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:54:19.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 14,
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoriaController.cs",
@@ -607,12 +577,11 @@
               "RelativeToolTip": "Controllers\\CategoriaController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:53:09.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:53:09.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 15,
               "Title": "ProgramaFidelidadeController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\ProgramaFidelidadeController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProgramaFidelidadeController.cs",
@@ -620,12 +589,11 @@
               "RelativeToolTip": "Controllers\\ProgramaFidelidadeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:56:50.031Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:56:50.031Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 16,
               "Title": "ClienteController.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
@@ -633,8 +601,7 @@
               "RelativeToolTip": "Controllers\\ClienteController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:43:06.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-14T18:43:06.38Z"
             },
             {
               "$type": "Document",
@@ -646,12 +613,11 @@
               "RelativeToolTip": "Services\\ProgramaFidelidadeService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:40:20.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:40:20.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "CupomDeDescontoService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\CupomDeDescontoService.cs",
               "RelativeDocumentMoniker": "Services\\CupomDeDescontoService.cs",
@@ -659,12 +625,11 @@
               "RelativeToolTip": "Services\\CupomDeDescontoService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:39:28.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:39:28.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "NewLestterService.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Services\\NewLestterService.cs",
               "RelativeDocumentMoniker": "Services\\NewLestterService.cs",
@@ -672,8 +637,7 @@
               "RelativeToolTip": "Services\\NewLestterService.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:41:21.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:41:21.522Z"
             },
             {
               "$type": "Document",
@@ -685,8 +649,7 @@
               "RelativeToolTip": "Services\\FornecedorService.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAAAEYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:05:42.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:05:42.412Z"
             },
             {
               "$type": "Document",
@@ -698,8 +661,7 @@
               "RelativeToolTip": "Services\\EntregaService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAABoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:36:59.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T22:36:59.371Z"
             },
             {
               "$type": "Document",
@@ -711,8 +673,7 @@
               "RelativeToolTip": "Domain\\Entities\\Produto.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAYwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:20:38.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:20:38.514Z"
             },
             {
               "$type": "Document",
@@ -724,8 +685,7 @@
               "RelativeToolTip": "Domain\\Entities\\DateBaseConex\u00E3o.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T23:07:56.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T23:07:56.923Z"
             },
             {
               "$type": "Document",
@@ -737,12 +697,11 @@
               "RelativeToolTip": "Domain\\Entities\\RelatorioDeEstoque.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T21:22:17.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-17T21:22:17.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "Frete.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\Frete.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Frete.cs",
@@ -750,12 +709,11 @@
               "RelativeToolTip": "Domain\\Entities\\Frete.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:05:16.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:05:16.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ItensComprados.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\ItensComprados.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\ItensComprados.cs",
@@ -763,8 +721,7 @@
               "RelativeToolTip": "Domain\\Entities\\ItensComprados.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:14:26.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:14:26.091Z"
             },
             {
               "$type": "Document",
@@ -776,8 +733,7 @@
               "RelativeToolTip": "Domain\\Entities\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:00:17.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:00:17.369Z"
             },
             {
               "$type": "Document",
@@ -789,12 +745,11 @@
               "RelativeToolTip": "Domain\\Entities\\Entrega.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:02:45.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:02:45.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "CupomDeDesconto.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\CupomDeDesconto.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\CupomDeDesconto.cs",
@@ -802,12 +757,11 @@
               "RelativeToolTip": "Domain\\Entities\\CupomDeDesconto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAQwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:01:58.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:01:58.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Fornecedor.cs",
               "DocumentMoniker": "C:\\Users\\renat\\OneDrive\\Documentos\\LojaDeBrinquedos.API\\Domain\\Entities\\Fornecedor.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Fornecedor.cs",
@@ -815,8 +769,7 @@
               "RelativeToolTip": "Domain\\Entities\\Fornecedor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:04:26.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:04:26.515Z"
             },
             {
               "$type": "Document",
@@ -828,8 +781,7 @@
               "RelativeToolTip": "Domain\\Entities\\Loja.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:15:18.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:15:18.952Z"
             },
             {
               "$type": "Document",
@@ -841,8 +793,7 @@
               "RelativeToolTip": "Domain\\Entities\\HistoricoDeVendas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:13:51.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:13:51.411Z"
             },
             {
               "$type": "Document",
@@ -854,8 +805,7 @@
               "RelativeToolTip": "Domain\\Entities\\Funcionarios.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAUwBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:13:02.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:13:02.579Z"
             },
             {
               "$type": "Document",
@@ -867,8 +817,7 @@
               "RelativeToolTip": "Domain\\Entities\\CompraEstoque.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T21:01:14.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T21:01:14.265Z"
             },
             {
               "$type": "Document",
@@ -880,8 +829,7 @@
               "RelativeToolTip": "Domain\\Entities\\Categoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T20:57:49.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T20:57:49.764Z"
             }
           ]
         }

@@ -1,0 +1,13 @@
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\bin\Debug\net8.0\LojaDeBrinquedos.Domain.deps.json
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\bin\Debug\net8.0\LojaDeBrinquedos.Domain.dll
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\bin\Debug\net8.0\LojaDeBrinquedos.Domain.pdb
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\obj\Debug\net8.0\LojaDeBrinquedos.Domain.csproj.AssemblyReference.cache
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\obj\Debug\net8.0\LojaDeBrinquedos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\obj\Debug\net8.0\LojaDeBrinquedos.Domain.AssemblyInfoInputs.cache
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\obj\Debug\net8.0\LojaDeBrinquedos.Domain.AssemblyInfo.cs
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\obj\Debug\net8.0\LojaDeBrinquedos.Domain.csproj.CoreCompileInputs.cache
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\obj\Debug\net8.0\LojaDeBrinquedos.Domain.sourcelink.json
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\obj\Debug\net8.0\LojaDeBrinquedos.Domain.dll
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\obj\Debug\net8.0\refint\LojaDeBrinquedos.Domain.dll
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\obj\Debug\net8.0\LojaDeBrinquedos.Domain.pdb
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Domain\obj\Debug\net8.0\ref\LojaDeBrinquedos.Domain.dll
