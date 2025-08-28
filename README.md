@@ -159,6 +159,22 @@ dotnet run
 
 ## ⚙️ Configuração
 
+### 🔒 Configurações de Segurança
+
+⚠️ **IMPORTANTE**: Antes de executar a aplicação, configure as credenciais do banco de dados:
+
+1. **Crie um arquivo `.env`** na raiz do projeto com suas configurações:
+```bash
+MYSQL_ROOT_PASSWORD=sua_senha_root
+MYSQL_USER=seu_usuario
+MYSQL_PASSWORD=sua_senha_usuario
+DB_CONNECTION_STRING=Server=localhost;Port=3306;Database=LojaDeBrinquedos;User Id=seu_usuario;Password=sua_senha_usuario;
+```
+
+2. **Nunca commite** o arquivo `.env` no repositório
+3. **Use variáveis de ambiente** em produção
+4. **Altere as senhas padrão** antes de usar em produção
+
 ### Variáveis de Ambiente
 
 O arquivo `appsettings.json` contém as configurações principais:

@@ -293,14 +293,36 @@ docker system df -v
 
 ## 🔒 Segurança
 
+### ⚠️ Configuração de Credenciais
+
+**IMPORTANTE**: Configure as credenciais antes de executar:
+
+1. **Crie um arquivo `.env`** na raiz do projeto:
+```bash
+MYSQL_ROOT_PASSWORD=sua_senha_root_forte
+MYSQL_USER=seu_usuario_app
+MYSQL_PASSWORD=sua_senha_usuario_forte
+```
+
+2. **Modifique o `docker-compose.yml`** para usar variáveis de ambiente:
+```yaml
+environment:
+  MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+  MYSQL_DATABASE: LojaDeBrinquedos
+  MYSQL_USER: ${MYSQL_USER}
+  MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+```
+
 ### Boas Práticas
 
-1. **Não usar senhas fracas em produção**
-2. **Limitar acesso às portas**
-3. **Usar secrets para senhas**
-4. **Manter imagens atualizadas**
+1. **Nunca use senhas padrão** em produção
+2. **Use senhas fortes** (mínimo 12 caracteres)
+3. **Limite acesso às portas** necessárias
+4. **Use secrets** para credenciais em produção
+5. **Mantenha imagens atualizadas**
+6. **Nunca commite** arquivos `.env` no repositório
 
-### Configuração Segura
+### Configuração Segura para Produção
 
 ```yaml
 # Exemplo de configuração mais segura

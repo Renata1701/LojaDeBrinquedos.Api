@@ -623,7 +623,7 @@ services:
       - "443:443"
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
-      - ConnectionStrings__MinhaConexaoSQL=${DB_CONNECTION_STRING}
+      - ConnectionStrings__MinhaConexaoSQL=[CONFIGURAR_CONNECTION_STRING]
     depends_on:
       - mysql
     restart: unless-stopped

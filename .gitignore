@@ -1,0 +1,64 @@
+# Arquivos de configuração sensíveis
+.env
+.env.local
+.env.development
+.env.production
+appsettings.Development.json
+appsettings.Production.json
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Arquivos de build
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Arquivos de IDE
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de banco de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos de backup
+*.bak
+*.backup
+backup.sql
+
+# Arquivos de cache
+.cache/
+*.cache
+
+# Arquivos de Docker
+.dockerignore
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de certificados
+*.pfx
+*.p12
+*.key
+*.crt
+*.pem
+
+# Arquivos de secrets
+secrets/
+*.secret
