@@ -1,152 +1,323 @@
-# 🐳 Docker Compose - Loja de Brinquedos API
+# 🐳 Docker - LojaDeBrinquedos.API
 
-Este projeto inclui uma configuração Docker Compose completa com MySQL para desenvolvimento local.
+Guia completo para execução da aplicação LojaDeBrinquedos.API usando Docker e Docker Compose.
 
-## 🚀 Início Rápido
+## 📋 Índice
 
-### 1. Subir os Containers
-```bash
-docker-compose up -d
+- [Visão Geral](#visão-geral)
+- [Pré-requisitos](#pré-requisitos)
+- [Configuração](#configuração)
+- [Execução](#execução)
+- [Desenvolvimento](#desenvolvimento)
+- [Troubleshooting](#troubleshooting)
+
+## 🎯 Visão Geral
+
+Este projeto utiliza **Docker** e **Docker Compose** para facilitar o desenvolvimento e deploy da aplicação, fornecendo um ambiente isolado e reproduzível.
+
+### 🏗️ Arquitetura Docker
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    Docker Compose                           │
+├─────────────────────────────────────────────────────────────┤
+│  ┌─────────────────┐    ┌─────────────────────────────────┐ │
+│  │   MySQL 8.0     │    │    LojaDeBrinquedos.API        │ │
+│  │   Port: 3306    │◄──►│    Port: 5000                  │ │
+│  │   Database:     │    │    .NET 8                      │ │
+│  │   LojaDeBrinquedos│    │    ASP.NET Core               │ │
+│  └─────────────────┘    └─────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-### 2. Verificar Status
+## ⚙️ Pré-requisitos
+
+### Software Necessário
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop) (Windows/Mac)
+- [Docker Engine](https://docs.docker.com/engine/install/) (Linux)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+### Verificação da Instalação
+
 ```bash
+# Verificar versão do Docker
+docker --version
+
+# Verificar versão do Docker Compose
+docker-compose --version
+
+# Verificar se o Docker está rodando
+docker info
+```
+
+## ⚙️ Configuração
+
+### Estrutura de Arquivos Docker
+
+```
+LojaDeBrinquedos.API/
+├── 📄 docker-compose.yml          # Orquestração dos containers
+├── 📄 Dockerfile                  # Imagem da aplicação (futuro)
+├── 📁 mysql/
+│   └── 📁 init/
+│       └── 📄 01-init-database.sql # Script de inicialização
+└── 📄 .dockerignore               # Arquivos ignorados pelo Docker
+```
+
+### Docker Compose
+
+O arquivo `docker-compose.yml` define:
+
+```yaml
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: loja_brinquedos_mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: LojaDeBrinquedos
+      MYSQL_USER: loja_user
+      MYSQL_PASSWORD: loja123
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql/init:/docker-entrypoint-initdb.d
+    networks:
+      - loja_network
+    command: --default-authentication-plugin=mysql_native_password
+
+volumes:
+  mysql_data:
+    driver: local
+
+networks:
+  loja_network:
+    driver: bridge
+```
+
+### Configurações do MySQL
+
+| Configuração | Valor |
+|--------------|-------|
+| **Imagem** | mysql:8.0 |
+| **Porta** | 3306 |
+| **Database** | LojaDeBrinquedos |
+| **Usuário** | loja_user |
+| **Senha** | loja123 |
+| **Root Password** | root123 |
+
+## 🚀 Execução
+
+### 1. Iniciar o Ambiente Completo
+
+```bash
+# Iniciar todos os serviços
+docker-compose up -d
+
+# Verificar status dos containers
 docker-compose ps
 ```
 
-### 3. Acessar o Banco de Dados
-- **MySQL**: `localhost:3306`
-- **phpMyAdmin**: `http://localhost:8080`
-  - Usuário: `root`
-  - Senha: `root123`
+### 2. Verificar Logs
 
-## 📋 Configurações
-
-### MySQL Container
-- **Imagem**: MySQL 8.0
-- **Porta**: 3306
-- **Database**: LojaDeBrinquedos
-- **Usuário Root**: root
-- **Senha Root**: root123
-- **Usuário Aplicação**: loja_user
-- **Senha Aplicação**: loja123
-
-### phpMyAdmin Container
-- **Porta**: 8080
-- **Acesso**: http://localhost:8080
-
-## 🔧 Comandos Úteis
-
-### Gerenciar Containers
 ```bash
-# Subir containers
-docker-compose up -d
+# Logs do MySQL
+docker-compose logs mysql
 
-# Parar containers
+# Logs em tempo real
+docker-compose logs -f mysql
+
+# Logs de todos os serviços
+docker-compose logs
+```
+
+### 3. Acessar o MySQL
+
+```bash
+# Conectar via linha de comando
+docker-compose exec mysql mysql -u loja_user -p
+
+# Conectar como root
+docker-compose exec mysql mysql -u root -p
+```
+
+### 4. Parar o Ambiente
+
+```bash
+# Parar todos os serviços
 docker-compose down
 
-# Ver logs
-docker-compose logs mysql
-
-# Reiniciar containers
-docker-compose restart
-
-# Remover containers e volumes
+# Parar e remover volumes (⚠️ CUIDADO: Remove dados)
 docker-compose down -v
+
+# Parar e remover imagens
+docker-compose down --rmi all
 ```
 
-### Acessar MySQL via CLI
-```bash
-# Conectar ao MySQL
-docker exec -it loja_brinquedos_mysql mysql -u root -p
+## 🛠️ Desenvolvimento
 
+### Executar Apenas o Banco de Dados
+
+```bash
+# Iniciar apenas o MySQL
+docker-compose up -d mysql
+
+# Executar a aplicação localmente
+dotnet run
+```
+
+### Reset do Banco de Dados
+
+```bash
+# Parar e remover volumes
+docker-compose down -v
+
+# Iniciar novamente (recria o banco)
+docker-compose up -d mysql
+```
+
+### Backup e Restore
+
+```bash
 # Backup do banco
-docker exec loja_brinquedos_mysql mysqldump -u root -proot123 LojaDeBrinquedos > backup.sql
+docker-compose exec mysql mysqldump -u loja_user -p LojaDeBrinquedos > backup.sql
 
-# Restaurar backup
-docker exec -i loja_brinquedos_mysql mysql -u root -proot123 LojaDeBrinquedos < backup.sql
+# Restore do banco
+docker-compose exec -T mysql mysql -u loja_user -p LojaDeBrinquedos < backup.sql
 ```
 
-## 📊 Estrutura do Banco
+### Persistência de Dados
 
-O script de inicialização (`mysql/init/01-init-database.sql`) cria automaticamente:
+Os dados do MySQL são persistidos através do volume `mysql_data`:
 
-### Tabelas Principais
-- **Categorias** - Categorias de brinquedos
-- **Fornecedores** - Fornecedores da loja
-- **Produtos** - Produtos disponíveis
-- **Clientes** - Cadastro de clientes
-- **Funcionarios** - Funcionários da loja
-- **Pedidos** - Pedidos realizados
-- **ItensComprados** - Itens de cada pedido
-- **Pagamentos** - Informações de pagamento
-- **Entregas** - Controle de entregas
-- **CuponsDesconto** - Cupons promocionais
-- **NewsLetter** - Inscrições na newsletter
-
-### Dados de Exemplo
-- 4 categorias de brinquedos
-- 2 fornecedores
-- 4 produtos de exemplo
-
-## 🔗 Conexão da API
-
-A API está configurada para conectar automaticamente ao MySQL:
-
-```json
-{
-  "ConnectionStrings": {
-    "LojaDeBrinquedos": "Server=localhost;Port=3306;Database=LojaDeBrinquedos;User Id=root;Password=root123;"
-  }
-}
-```
-
-## 🛠️ Troubleshooting
-
-### Problema: Porta 3306 já em uso
 ```bash
-# Verificar processos na porta
+# Localizar o volume
+docker volume ls | grep loja_brinquedos
+
+# Inspecionar o volume
+docker volume inspect loja_brinquedos_mysql_data
+```
+
+## 🔧 Troubleshooting
+
+### Problemas Comuns
+
+#### 1. Porta 3306 já em uso
+
+```bash
+# Verificar o que está usando a porta
 netstat -ano | findstr :3306
 
-# Parar serviço MySQL local (se houver)
+# Parar o serviço MySQL local (Windows)
 net stop mysql
+
+# Ou alterar a porta no docker-compose.yml
+ports:
+  - "3307:3306"  # Usar porta 3307 externamente
 ```
 
-### Problema: Container não inicia
+#### 2. Container não inicia
+
 ```bash
-# Verificar logs
+# Verificar logs detalhados
 docker-compose logs mysql
 
-# Remover volumes e recriar
+# Verificar recursos do sistema
+docker system df
+
+# Limpar recursos não utilizados
+docker system prune
+```
+
+#### 3. Problemas de Conexão
+
+```bash
+# Testar conectividade
+docker-compose exec mysql mysql -u loja_user -p -e "SELECT 1;"
+
+# Verificar variáveis de ambiente
+docker-compose exec mysql env | grep MYSQL
+```
+
+#### 4. Dados não persistem
+
+```bash
+# Verificar se o volume está sendo usado
+docker-compose exec mysql mysql -u root -p -e "SHOW VARIABLES LIKE 'datadir';"
+
+# Recriar o volume
 docker-compose down -v
 docker-compose up -d
 ```
 
-### Problema: Acesso negado ao banco
-```bash
-# Verificar se o container está rodando
-docker-compose ps
+### Comandos Úteis
 
-# Testar conexão
-docker exec -it loja_brinquedos_mysql mysql -u root -proot123 -e "SHOW DATABASES;"
+```bash
+# Verificar uso de recursos
+docker stats
+
+# Limpar containers parados
+docker container prune
+
+# Limpar imagens não utilizadas
+docker image prune
+
+# Limpar tudo (⚠️ CUIDADO)
+docker system prune -a
 ```
 
-## 📝 Notas Importantes
+## 📊 Monitoramento
 
-1. **Primeira execução**: O MySQL pode levar alguns minutos para inicializar
-2. **Dados persistentes**: Os dados são salvos no volume `mysql_data`
-3. **Backup**: Sempre faça backup antes de atualizações importantes
-4. **Desenvolvimento**: Esta configuração é para desenvolvimento local
+### Health Check
+
+```bash
+# Verificar saúde do container
+docker-compose ps
+
+# Verificar logs de saúde
+docker-compose logs mysql | grep -i health
+```
+
+### Métricas
+
+```bash
+# Uso de CPU e memória
+docker stats loja_brinquedos_mysql
+
+# Tamanho do volume
+docker system df -v
+```
 
 ## 🔒 Segurança
 
-⚠️ **ATENÇÃO**: Esta configuração é para desenvolvimento local apenas!
-- Senhas em texto plano
-- Sem SSL/TLS
-- Acesso root habilitado
+### Boas Práticas
 
-Para produção, configure:
-- Senhas fortes
-- SSL/TLS
-- Usuários com privilégios mínimos
-- Firewall adequado
+1. **Não usar senhas fracas em produção**
+2. **Limitar acesso às portas**
+3. **Usar secrets para senhas**
+4. **Manter imagens atualizadas**
+
+### Configuração Segura
+
+```yaml
+# Exemplo de configuração mais segura
+environment:
+  MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+  MYSQL_DATABASE: ${MYSQL_DATABASE}
+  MYSQL_USER: ${MYSQL_USER}
+  MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+```
+
+## 📚 Recursos Adicionais
+
+- [Docker Documentation](https://docs.docker.com/)
+- [Docker Compose Documentation](https://docs.docker.com/compose/)
+- [MySQL Docker Hub](https://hub.docker.com/_/mysql)
+- [.NET Docker Hub](https://hub.docker.com/_/microsoft-dotnet)
+
+---
+
+**🐳 Docker torna o desenvolvimento mais fácil e consistente!**

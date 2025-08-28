@@ -1,12 +1,16 @@
 ﻿namespace LojaDeBrinquedos.Domain.Entities;
+
 public class Categoria
 {
     public Guid Id { get; set; }
-    public string Nome { get; set; }
-    public string Descricao { get; set; }
-    public Categoria(int id, string nome, string descricao, Guid Id)
+    public string Nome { get; set; } = string.Empty;
+    public string Descricao { get; set; } = string.Empty;
+    
+    // Construtor padrão
+    public Categoria() { }
+    
+    public Categoria(string nome, string descricao)
     {
-        _ = id;
         Nome = nome;
         Descricao = descricao;
     }

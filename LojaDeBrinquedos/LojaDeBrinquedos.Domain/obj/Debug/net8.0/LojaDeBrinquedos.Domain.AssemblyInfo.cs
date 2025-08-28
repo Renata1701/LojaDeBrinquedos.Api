@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LojaDeBrinquedos.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+358fa0003c86064e6d3915b3f01ee7a6ea1f3268")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43d477a956ff152a9cc8dd34db804115eb1caaeb")]
 [assembly: System.Reflection.AssemblyProductAttribute("LojaDeBrinquedos.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LojaDeBrinquedos.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

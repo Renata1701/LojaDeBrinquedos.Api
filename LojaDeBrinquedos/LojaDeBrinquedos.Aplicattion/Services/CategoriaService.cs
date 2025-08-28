@@ -1,29 +1,28 @@
-﻿using Azure.Core;
-using LojaDeBrinquedos.Domain.Entities;
+﻿using LojaDeBrinquedos.Domain.Entities;
 using LojaDeBrinquedos.Domain.Interfaces;
-using System.Numerics;
+using Microsoft.Extensions.Configuration;
 
 namespace LojaDeBrinquedos.API.Services;
 
 public class CategoriaService : ICategoriaService
 {
-    public readonly string _connectionString = ConnectionString("MinhaConexaoSQL");
-
-    private static string ConnectionString(string v)
-    {
-        throw new NotImplementedException();
-    }
-
+    private readonly string _connectionString;
     private readonly List<Categoria> _categorias;
 
-    public IEnumerable<Categoria> ListarCategorias()
+    public CategoriaService(IConfiguration configuration)
+    {
+        _connectionString = configuration.GetConnectionString("MinhaConexaoSQL") ?? string.Empty;
+        _categorias = new List<Categoria>();
+    }
+
+    public IEnumerable<Categoria> ListarCategoria()
     {
         return _categorias;
     }
 
     public Categoria BuscarPorId(Guid id)
     {
-        return _categorias.FirstOrDefault(c => c.Id == id);
+        return _categorias.FirstOrDefault(c => c.Id == id) ?? new Categoria();
     }
 
     public bool Criar(Categoria categoria)
@@ -40,67 +39,25 @@ public class CategoriaService : ICategoriaService
         {
             return false;
         }
-
     }
 
     public void Atualizar(Categoria categoria)
     {
         if (categoria == null) throw new ArgumentNullException(nameof(categoria));
         var existente = BuscarPorId(categoria.Id);
-        if (existente == null) throw new InvalidOperationException("Categoria não encontrada.");
-    }
-
-    private object BuscarPorId(int id)
-    {
-        throw new NotImplementedException();
+        if (existente == null || existente.Id == Guid.Empty) throw new InvalidOperationException("Categoria não encontrada.");
+        
+        var index = _categorias.FindIndex(c => c.Id == categoria.Id);
+        if (index != -1)
+        {
+            _categorias[index] = categoria;
+        }
     }
 
     public void Excluir(Guid id)
     {
         var categoria = BuscarPorId(id);
-        if (categoria == null) throw new InvalidOperationException("Categoria não encontrada.");
+        if (categoria == null || categoria.Id == Guid.Empty) throw new InvalidOperationException("Categoria não encontrada.");
         _categorias.Remove(categoria);
-    }
-
-    public Task<IEnumerable<Categoria>> ListarCategoriasAsync()
-    {
-        return Task.Run(() => (IEnumerable<Categoria>)_categorias);
-    }
-
-    public Task<Categoria> BuscarPorIdAsync(Guid id)
-    {
-        return Task.Run(() => BuscarPorId(id));
-    }
-
-    public Task<Categoria> CriarAsync(Categoria categoria)
-    {
-        return Task.Run(() =>
-        {
-            Criar(categoria);
-            return categoria;
-        });
-    }
-
-    public Task<Categoria> AtualizarAsync(Categoria categoria)
-    {
-        return Task.Run(() =>
-        {
-            Atualizar(categoria);
-            return categoria;
-        });
-    }
-
-    public Task<bool> ExcluirAsync(Guid id)
-    {
-        return Task.Run(() =>
-        {
-            Excluir(id);
-            return true;
-        });
-    }
-
-    public IEnumerable<Categoria> ListarCategoria()
-    {
-        throw new NotImplementedException();
     }
 }
