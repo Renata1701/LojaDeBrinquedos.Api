@@ -3,26 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace LojaDeBrinquedos.Domain.Entities;
-public class Cliente 
+
+public class Cliente
 {
     public int Id { get; set; }
-    public string Nome { get; set; }
-    public string Email { get; set; }
-    public string Telefone { get; set; }
-    public DateTime DataNascimento { get; set; }
-    public string Endereco { get; set; }
     
-    public Cliente(int id, string nome, string email, string telefone, DateTime dataNascimento, string endereco)
-    {
-        Id = id;
-        Nome = nome;
-        Email = email;
-        Telefone = telefone;
-        DataNascimento = dataNascimento;
-        Endereco = endereco;
-    }
+    [Required]
+    public string Nome { get; set; } = string.Empty;
+    
+    [Required]
+    [EmailAddress]
+    public string Email { get; set; } = string.Empty;
+    
+    public string CPF { get; set; } = string.Empty;
+    public string? Telefone { get; set; }
+    public string? Endereco { get; set; }
+    public DateTime DataCadastro { get; set; } = DateTime.Now;
+    public bool Ativo { get; set; } = true;
+    
+    // Navegação
+    public virtual ICollection<Pedido> Pedidos { get; set; } = new List<Pedido>();
+    public virtual ICollection<ProgramaFidelidade> ProgramasFidelidade { get; set; } = new List<ProgramaFidelidade>();
 }
 
 

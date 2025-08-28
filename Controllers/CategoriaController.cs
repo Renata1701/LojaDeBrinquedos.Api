@@ -1,4 +1,4 @@
-﻿using LojaDeBrinquedos.API.ResultModel;
+using LojaDeBrinquedos.API.ResultModel;
 using LojaDeBrinquedos.Domain.Entities;
 using LojaDeBrinquedos.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
@@ -12,7 +12,6 @@ public class CategoriaController : ControllerBase
     private string? _connectionString;
     private readonly IConfiguration _configuration;
     private readonly ICategoriaService _categoriaService;
-
 
     public CategoriaController(IConfiguration configuration, ICategoriaService categoriaService)
     {
@@ -55,7 +54,11 @@ public class CategoriaController : ControllerBase
         {
             return NotFound();
         }
-        return Ok(new CategoriaResult(categoria.Nome, categoria.Descricao));
+        return Ok(new CategoriaResult 
+        { 
+            Nome = categoria.Nome, 
+            Descricao = categoria.Descricao 
+        });
     }
 
     [HttpPost]
@@ -64,6 +67,7 @@ public class CategoriaController : ControllerBase
         var result = _categoriaService.Criar(categoria);
         return Ok(result);
     }
+
     [HttpPut("{id}")]
     public ActionResult<CategoriaResult> UpdateOrCreateCategoria(Guid id, Categoria categoria)
     {
@@ -75,8 +79,13 @@ public class CategoriaController : ControllerBase
         }
         _categoriaService.Atualizar(categoria);
 
-        return Ok(new CategoriaResult(categoria.Nome, categoria.Descricao));
+        return Ok(new CategoriaResult 
+        { 
+            Nome = categoria.Nome, 
+            Descricao = categoria.Descricao 
+        });
     }
+
     [HttpDelete("{id}")]
     public ActionResult DeleteCategoria(int id)
     {

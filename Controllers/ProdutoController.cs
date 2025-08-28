@@ -1,4 +1,4 @@
-﻿using LojaDeBrinquedos.API.Domain.Entities;
+using LojaDeBrinquedos.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
@@ -8,12 +8,7 @@ namespace LojaDeBrinquedos.API.Controllers;
 [ApiController]
 public class ProdutoController : ControllerBase
 {
-
     private static List<Produto> produtos = new();
-    internal int Id;
-    internal string Nome;
-    internal int Quantidade;
-    internal decimal Preco;
     private string? _connectionString;
 
     public ProdutoController(IConfiguration configuration)
@@ -47,7 +42,6 @@ public class ProdutoController : ControllerBase
 
         return Ok(produtos);
     }
-
 
     [HttpGet("{id}")]
     public ActionResult<Produto> Get(int id)
@@ -88,5 +82,4 @@ public class ProdutoController : ControllerBase
         produtos.Remove(produto);
         return NoContent();
     }
-
 }

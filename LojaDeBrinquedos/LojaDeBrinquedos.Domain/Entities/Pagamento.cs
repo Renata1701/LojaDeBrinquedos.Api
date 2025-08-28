@@ -3,22 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace LojaDeBrinquedos.Domain.Entities;
+
 public class Pagamento
 {
     public int Id { get; set; }
     public int PedidoId { get; set; }
     public decimal Valor { get; set; }
-    public DateTime DataPagamento { get; set; }
-    public string MetodoPagamento { get; set; } 
-    public Pagamento(int id, int pedidoId, decimal valor, DateTime dataPagamento, string metodoPagamento)
-    {
-        Id = id;
-        PedidoId = pedidoId;
-        Valor = valor;
-        DataPagamento = dataPagamento;
-        MetodoPagamento = metodoPagamento;
-    }
-
+    public string Metodo { get; set; } = string.Empty;
+    public string Status { get; set; } = "Pendente";
+    public DateTime DataPagamento { get; set; } = DateTime.Now;
+    public DateTime DataCadastro { get; set; } = DateTime.Now;
+    
+    // Navegação
+    public virtual Pedido Pedido { get; set; } = null!;
 }

@@ -2,13 +2,8 @@
 
 public class CategoriaResult
 {
-    public string Nome { get; set; }
-
-    public string Descricao { get; set; }
-
-    public CategoriaResult(string nome, string descricao)
-    {
-        nome = Nome;
-        Descricao = descricao;
-    }
+    public int Id { get; set; }
+    public string Nome { get; set; } = string.Empty;
+    public string? Descricao { get; set; }
+    public bool Ativo { get; set; } = true;
 }

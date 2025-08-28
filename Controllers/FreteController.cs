@@ -1,4 +1,4 @@
-﻿using LojaDeBrinquedos.API.Domain.Entities;
+using LojaDeBrinquedos.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,6 +14,7 @@ public class FreteController : ControllerBase
     {
         _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
     }
+
     [HttpGet]
     public ActionResult<IEnumerable<Frete>> Get() => Ok(fretes);
 
@@ -42,7 +43,7 @@ public class FreteController : ControllerBase
         frete.PedidoId = atualizado.PedidoId;
         frete.Valor = atualizado.Valor;
         frete.Tipo = atualizado.Tipo;
-        frete.DataEnvio = atualizado.DataEnvio;
+        frete.DataCadastro = atualizado.DataCadastro;
         frete.DataEntregaEstimada = atualizado.DataEntregaEstimada;
         frete.Status = atualizado.Status;
 
