@@ -1,4 +1,4 @@
-﻿using LojaDeBrinquedos.API.Domain.Entities;
+﻿using LojaDeBrinquedos.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;

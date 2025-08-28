@@ -13,7 +13,7 @@ namespace LojaDeBrinquedos.Infrastructure.Data;
 public class LojaDbContext
 {
     private static readonly string _connectionString =
-              "Server=localhost;Port=3306;Database=LojaDeBrinquedos;User Id=root;Password=;";
+              "Server=localhost;Port=3306;Database=LojaDeBrinquedos;User Id=loja_user;Password=loja123;";
 
     public static IDbConnection CreateConnection()
     {

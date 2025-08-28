@@ -4,3 +4,13 @@ C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeB
 C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\LojaDeBrinquedos.Aplicattion.AssemblyInfo.cs
 C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\LojaDeBrinquedos.Aplicattion.csproj.CoreCompileInputs.cache
 C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\LojaDeBrinquedos.Aplicattion.sourcelink.json
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\bin\Debug\net8.0\LojaDeBrinquedos.Aplicattion.deps.json
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\bin\Debug\net8.0\LojaDeBrinquedos.Aplicattion.dll
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\bin\Debug\net8.0\LojaDeBrinquedos.Aplicattion.pdb
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\bin\Debug\net8.0\LojaDeBrinquedos.Domain.dll
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\bin\Debug\net8.0\LojaDeBrinquedos.Domain.pdb
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\LojaDeBr.620661D7.Up2Date
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\LojaDeBrinquedos.Aplicattion.dll
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\refint\LojaDeBrinquedos.Aplicattion.dll
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\LojaDeBrinquedos.Aplicattion.pdb
+C:\Users\renat\OneDrive\Documentos\LojaDeBrinquedos.API\LojaDeBrinquedos\LojaDeBrinquedos.Aplicattion\obj\Debug\net8.0\ref\LojaDeBrinquedos.Aplicattion.dll

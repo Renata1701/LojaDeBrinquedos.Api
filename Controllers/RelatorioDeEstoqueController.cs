@@ -17,7 +17,7 @@ public class RelatorioDeEstoqueController : ControllerBase
     [HttpGet]
     public IActionResult GetRelatorioEstoque()
     {
-        var relatorio = new List<RelatorioDeEstoque();
+        var relatorio = new List<RelatorioDeEstoque>();
 
         using var connection = new SqlConnection(_connectionString);
         connection.Open();
@@ -34,7 +34,6 @@ public class RelatorioDeEstoqueController : ControllerBase
         while (reader.Read())
         {
             var dto = new RelatorioDeEstoque()
-
             {
                 ProdutoId = reader.GetInt32(0),
                 Nome = reader.GetString(1),
@@ -48,6 +47,5 @@ public class RelatorioDeEstoqueController : ControllerBase
 
         return Ok(relatorio);
     }
-
 }
 

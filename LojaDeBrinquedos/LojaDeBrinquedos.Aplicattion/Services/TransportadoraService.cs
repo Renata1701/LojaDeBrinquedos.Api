@@ -1,23 +1,21 @@
 ﻿using LojaDeBrinquedos.Aplicattion.Interfaces;
-using static LojaDeBrinquedos.API.Services.PedidoService;
+using LojaDeBrinquedos.Domain.Entities;
+using Microsoft.Extensions.Configuration;
 
 namespace LojaDeBrinquedos.API.Services;
 
 public class TransportadoraService : ITransportadoraService
 {
     private readonly string _connectionString;
+    private readonly List<Transportadora> _transportadoras;
 
     public TransportadoraService(IConfiguration configuration)
     {
-        _connectionString = configuration.GetConnectionString("MinhaConexaoSQL");
+        _connectionString = configuration.GetConnectionString("MinhaConexaoSQL") ?? string.Empty;
+        _transportadoras = new List<Transportadora>();
     }
 
-    private readonly List<TransportadoraService> _transportadoras;
-    private object Id;
-    private object Nome;
-    private object Telefone;
-
-    public void AdicionarTransportadora(TransportadoraService transportadora)
+    public void AdicionarTransportadora(Transportadora transportadora)
     {
         if (transportadora == null)
             throw new ArgumentNullException(nameof(transportadora));
@@ -28,25 +26,25 @@ public class TransportadoraService : ITransportadoraService
         _transportadoras.Add(transportadora);
     }
 
-    public IEnumerable<TransportadoraService> ObterTodasTransportadoras()
+    public IEnumerable<Transportadora> ObterTodasTransportadoras()
     {
         return _transportadoras;
     }
 
-    public TransportadoraService ObterTransportadoraPorId(int id)
+    public Transportadora? ObterTransportadoraPorId(int id)
     {
-        return _transportadoras.FirstOrDefault(t => Id == id);
+        return _transportadoras.FirstOrDefault(t => t.Id == id);
     }
 
-    public void AtualizarTransportadora(TransportadoraService transportadora)
+    public void AtualizarTransportadora(Transportadora transportadora)
     {
-        var existente = ObterTransportadoraPorId((int)transportadora.Id);
+        var existente = ObterTransportadoraPorId(transportadora.Id);
         if (existente == null)
             throw new InvalidOperationException("Transportadora não encontrada.");
 
         existente.Nome = transportadora.Nome;
         existente.Telefone = transportadora.Telefone;
-        
+        existente.Email = transportadora.Email;
     }
 
     public void RemoverTransportadora(int id)
@@ -63,7 +61,7 @@ public class TransportadoraService : ITransportadoraService
         throw new NotImplementedException();
     }
 
-    ITransportadoraService ITransportadoraService.ObterTransportadoraPorId(int id)
+    ITransportadoraService? ITransportadoraService.ObterTransportadoraPorId(int id)
     {
         throw new NotImplementedException();
     }
