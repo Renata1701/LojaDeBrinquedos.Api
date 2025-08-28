@@ -22,7 +22,7 @@ public class CategoriaService : ICategoriaService
 
     public Categoria BuscarPorId(Guid id)
     {
-        return _categorias.FirstOrDefault(c => c.Id == id) ?? new Categoria();
+        return _categorias.FirstOrDefault(c => c.Id == id) ?? null!;
     }
 
     public bool Criar(Categoria categoria)
@@ -45,7 +45,7 @@ public class CategoriaService : ICategoriaService
     {
         if (categoria == null) throw new ArgumentNullException(nameof(categoria));
         var existente = BuscarPorId(categoria.Id);
-        if (existente == null || existente.Id == Guid.Empty) throw new InvalidOperationException("Categoria não encontrada.");
+        if (existente == null) throw new InvalidOperationException("Categoria não encontrada.");
         
         var index = _categorias.FindIndex(c => c.Id == categoria.Id);
         if (index != -1)
@@ -57,7 +57,7 @@ public class CategoriaService : ICategoriaService
     public void Excluir(Guid id)
     {
         var categoria = BuscarPorId(id);
-        if (categoria == null || categoria.Id == Guid.Empty) throw new InvalidOperationException("Categoria não encontrada.");
+        if (categoria == null) throw new InvalidOperationException("Categoria não encontrada.");
         _categorias.Remove(categoria);
     }
 }

@@ -166,7 +166,7 @@ O arquivo `appsettings.json` contém as configurações principais:
 ```json
 {
   "ConnectionStrings": {
-    "MinhaConexaoSQL": "Server=localhost;Port=3306;Database=LojaDeBrinquedos;User Id=loja_user;Password=loja123;"
+    "MinhaConexaoSQL": "Server=localhost;Port=3306;Database=LojaDeBrinquedos;User Id=***;Password=***;"
   }
 }
 ```
@@ -175,8 +175,8 @@ O arquivo `appsettings.json` contém as configurações principais:
 
 O arquivo `docker-compose.yml` configura:
 - **MySQL 8.0** na porta 3306
-- **Usuário**: loja_user
-- **Senha**: loja123
+- **Usuário**: [CONFIGURAR]
+- **Senha**: [CONFIGURAR]
 - **Database**: LojaDeBrinquedos
 
 ## 🚀 Uso

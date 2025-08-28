@@ -76,10 +76,10 @@ services:
     container_name: loja_brinquedos_mysql
     restart: unless-stopped
     environment:
-      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_ROOT_PASSWORD: [CONFIGURAR]
       MYSQL_DATABASE: LojaDeBrinquedos
-      MYSQL_USER: loja_user
-      MYSQL_PASSWORD: loja123
+      MYSQL_USER: [CONFIGURAR]
+      MYSQL_PASSWORD: [CONFIGURAR]
     ports:
       - "3306:3306"
     volumes:
@@ -105,9 +105,9 @@ networks:
 | **Imagem** | mysql:8.0 |
 | **Porta** | 3306 |
 | **Database** | LojaDeBrinquedos |
-| **Usuário** | loja_user |
-| **Senha** | loja123 |
-| **Root Password** | root123 |
+| **Usuário** | [CONFIGURAR] |
+| **Senha** | [CONFIGURAR] |
+| **Root Password** | [CONFIGURAR] |
 
 ## 🚀 Execução
 
@@ -138,7 +138,7 @@ docker-compose logs
 
 ```bash
 # Conectar via linha de comando
-docker-compose exec mysql mysql -u loja_user -p
+docker-compose exec mysql mysql -u [USUARIO] -p
 
 # Conectar como root
 docker-compose exec mysql mysql -u root -p
@@ -183,10 +183,10 @@ docker-compose up -d mysql
 
 ```bash
 # Backup do banco
-docker-compose exec mysql mysqldump -u loja_user -p LojaDeBrinquedos > backup.sql
+docker-compose exec mysql mysqldump -u [USUARIO] -p LojaDeBrinquedos > backup.sql
 
 # Restore do banco
-docker-compose exec -T mysql mysql -u loja_user -p LojaDeBrinquedos < backup.sql
+docker-compose exec -T mysql mysql -u [USUARIO] -p LojaDeBrinquedos < backup.sql
 ```
 
 ### Persistência de Dados
@@ -236,7 +236,7 @@ docker system prune
 
 ```bash
 # Testar conectividade
-docker-compose exec mysql mysql -u loja_user -p -e "SELECT 1;"
+docker-compose exec mysql mysql -u [USUARIO] -p -e "SELECT 1;"
 
 # Verificar variáveis de ambiente
 docker-compose exec mysql env | grep MYSQL
